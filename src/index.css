@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ************ HEADER ************* */
+
+h1{
+  margin: 3rem;
+  text-align: center;
+  
+}
+
+/* ************ FORM PART ************* */
+
+.form {
+  align-items: center;
+  justify-content: center;
+  margin-left: 7rem;
+  border-radius: 5px;
+}
+
+form {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgb(0, 49, 99);
+  color: white;
+  width: 1200px;
+}
+
+label {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+input {
+  margin: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  border-radius: 5px;
+  font-family: "Roboto", "sans-serif";
+}
+
+#phone {
+  margin-left: -1rem;
+  width: 15rem;
+  border-radius: 5px;
+}
+
+#role {
+  margin: 1rem;
+  margin-left: 3.7rem;
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 5px;
+}
+
+#message {
+  margin: 1rem;
+  margin-left: 1.7rem;
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  margin: auto;
+  margin-left: 13.8rem;
+  margin-top: 1rem;
+  width: 15rem;
+  background-color: darkgreen;
+  color: whitesmoke;
+  border-radius: 5px;
+  border-style: none;
+  transform: translate(3px);
+}
+
+button:hover {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  margin: auto;
+  margin-left: 13.8rem;
+  margin-top: 1rem;
+  width: 15rem;
+  background-color: darkgreen;
+  filter: brightness(140%);
+  color: whitesmoke;
+  border-radius: 5px;
+  border-style: none;
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 5px 2px whitesmoke;
+}
+
+/* ************ NOTEPAD PART ************* */
+
+
+h2 {
+  margin: 2rem;
+}
+
+span {
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.body {
+  background-color: whitesmoke;
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+}
+
+.view {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  border: 1px solid #dedede;
+  width: 1100px;  
+  box-shadow: 0 0 5px 2px rgb(109, 109, 109);
+}
+
+.view p {
+  border-bottom: 1px dotted rgb(185, 185, 185);
+  text-indent: 50px;
+  height: auto;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.lines {
+  border-right: 2px solid #ffaa9f;
+  width: 50px;
+  float: left;
+  height: auto;
+  margin-left: 40px;
+  margin-bottom: 5rem;
+}
+
+/* ************ POPUP PART ************* */
+
+.Popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 150vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.popup-wrapper {
+  position: relative;
+  bottom: 15%;
+  left: 0;
+  height: 40%;
+  width: 40%;
+  background-color: white;
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 0 5px #333;
+  margin: 0 auto;
+  color: black;
+}
+
+.popup-content p {
+  margin: 2px 1px;
+  padding: 2px;
+  color: black;
+}
+
+.popup-content {
+  margin-top: 5px;
+  padding-top: 5px;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.buttons button {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  box-shadow: 0 0 5px #333;
+}
