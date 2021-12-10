@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "firstname": "Heikki",
+      "lastname": "Kantanen",
+      "phonenumber": "123456789",
+      "role": "student",
+      "message": "some really important message!"
+    },
+    {
+      "id": 2,
+      "firstname": "Pekka",
+      "lastname": "Puupää",
+      "phonenumber": "205303523",
+      "role": "teacher",
+      "message": "hello message!"
+    },
+    {
+      "id": 3,
+      "firstname": "Pätkä",
+      "lastname": "Luupää",
+      "phonenumber": "2405956820",
+      "role": "student",
+      "message": "helo helouuu"
+    }
+  
+  ]
+}

@@ -1,8 +1,8 @@
 
 
-const Form = (props) => {
+const Form = ({ change, submit }) => {
     return (
-        <form className="form" onSubmit={props.showPopupHandler}>
+        <form className="form" onSubmit={submit}>
             <div>
                 <label htmlFor="firstname">Firstname</label>
                 <input 
@@ -10,7 +10,7 @@ const Form = (props) => {
                     name="firstname" 
                     id="firstname" 
                     required 
-                    onChange={props.change} 
+                    onChange={change} 
                 />
             </div>
             <div>
@@ -20,23 +20,24 @@ const Form = (props) => {
                     name="lastname" 
                     id="lastname" 
                     required 
-                    onChange={props.change} 
+                    onChange={change} 
                 />
             </div>
             <div>
                 <label htmlFor="phone">Phone number</label>
                 <input 
                     type="phone" 
-                    name="phone" 
+                    name="phonenumber" 
                     id="phone" 
                     required 
-                    onChange={props.change} 
+                    onChange={change} 
                 />
             </div>
             <div>
-                <label htmlFor="role">Role</label>
-                <select name="role" id="role" onChange={props.change}>
-                    <option value="teacher">Teacher</option>
+                <label className="role-header" htmlFor="role">Role</label>
+                <select name="role" id="role" onChange={change} required>
+                    <option value="">Choose a role...</option>
+                    <option value="teacher" defaultValue>Teacher</option>
                     <option value="student">Student</option>
                     <option value="other">Other</option>
                 </select>
@@ -47,7 +48,7 @@ const Form = (props) => {
                     name="message" 
                     id="message" 
                     required 
-                    onChange={props.change} 
+                    onChange={change} 
                 ></textarea>
             </div>
             <div className="button-wrapper">
