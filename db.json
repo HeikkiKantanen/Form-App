@@ -1,29 +1,31 @@
 {
   "notes": [
     {
-      "id": 1,
       "firstname": "Heikki",
       "lastname": "Kantanen",
+      "phone": "",
+      "message": "Really important message!",
+      "role": "Developer",
       "phonenumber": "123456789",
-      "role": "student",
-      "message": "some really important message!"
+      "id": 1
     },
     {
-      "id": 2,
-      "firstname": "Pekka",
-      "lastname": "Puupää",
-      "phonenumber": "205303523",
-      "role": "teacher",
-      "message": "hello message!"
+      "firstname": "Mr.",
+      "lastname": "Example",
+      "phone": "",
+      "message": "You know nothing Jon snow",
+      "role": "Project Manager",
+      "phonenumber": "987654321",
+      "id": 2
     },
     {
-      "id": 3,
-      "firstname": "Pätkä",
-      "lastname": "Luupää",
-      "phonenumber": "2405956820",
-      "role": "student",
-      "message": "helo helouuu"
+      "firstname": "example",
+      "lastname": "something",
+      "phone": "",
+      "message": "Hellou",
+      "role": "Project Manager",
+      "phonenumber": "46479494",
+      "id": 3
     }
-  
   ]
 }

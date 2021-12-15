@@ -4,6 +4,7 @@ import Form from "./components/Form";
 import View from "./components/View";
 import Popup from "./components/Popup";
 import Notes from "./components/Notes";
+import Footer from "./components/Footer";
 
 import axios from "axios";
 
@@ -64,6 +65,7 @@ class App extends Component {
         {this.state.data.map((note) => (
           <Notes {...note} key={note.id} />
         ))}
+        <Footer />
       </div>
     );
   };

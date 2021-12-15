@@ -212,3 +212,35 @@ span {
   margin-top: 1rem;
   box-shadow: 0 0 5px #333;
 }
+
+/* ************ NOTES PART ************* */
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+
+.note {
+  background-color: lightgrey;
+  margin: 2rem;
+  padding: 1rem;
+  width: 500px;
+  border: dashed 2px #222;
+  border-radius: 10px;
+}
+
+.note p,
+strong {
+  margin: 1rem;
+}
+
+/* ************ FOOTER PART ************* */
+
+footer {
+  height: 3rem;
+  text-align: center;
+  margin: 2rem;
+}

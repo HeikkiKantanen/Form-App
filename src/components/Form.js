@@ -37,9 +37,9 @@ const Form = ({ change, submit }) => {
                 <label className="role-header" htmlFor="role">Role</label>
                 <select name="role" id="role" onChange={change} required>
                     <option value="">Choose a role...</option>
-                    <option value="teacher" defaultValue>Teacher</option>
-                    <option value="student">Student</option>
-                    <option value="other">Other</option>
+                    <option value="Developer" defaultValue>Developer</option>
+                    <option value="Designer">Designer</option>
+                    <option value="Project Manager">Project Manager</option>
                 </select>
             </div>
             <div>
